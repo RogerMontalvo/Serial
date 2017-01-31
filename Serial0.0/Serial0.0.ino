@@ -17,8 +17,13 @@
 
 void setup() {                            // CONDICIONS INICIALS
 Serial.begin (9600);
+
+if Serial.read ("Dale");
+
 Serial.println ("Hola Isaac") ;
+
 Serial.println ("Adeu Isaac") ;
+
  }
 
 //**************************** LOOP *************************************
